@@ -20,7 +20,7 @@ namespace CSharpLab3
             Arrs.CreateOneDimAr(A);//Инициализация
             Arrs.CreateOneDimAr(B);
 
-            for(int i = 0; i < A.Length; i++)//Инициализация через сумму
+            for(int i = 0; i < C.Length; i++)//Инициализация через сумму A+B
             {
                 C[i] = A[i] + B[i];
             }
@@ -50,7 +50,7 @@ namespace CSharpLab3
             Console.WriteLine();
 
 
-            Console.WriteLine("Second task");//Двумерные массивы
+            Console.WriteLine("Second task");//Двумерные массивы 
 
             int[,] arr1 = new int[4, 2];//Умножение возможно
             int[,] arr2 = new int[2, 3];
